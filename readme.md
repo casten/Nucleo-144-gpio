@@ -7,8 +7,8 @@
 
 I was working on a project that utilized a large number of GPIOs on a Nucleo-144 board.  Some pins were double-labled and not necessarily clear in the definitions in the headers.  Also some pins appeared to be not connected despite being labeled with pin named.
 
-I used some utilities I wrote to help confirm the pins mappings to GPIO numbers.  You can find those tools here:
-
+I used a utility I wrote to help confirm the pins mappings to GPIO numbers.  You can find that here:  
+[https://github.com/casten/gpio-tool](https://github.com/casten/gpio-tool)
 
 ## Top View of Board
 

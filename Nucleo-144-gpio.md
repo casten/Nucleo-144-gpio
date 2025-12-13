@@ -24,7 +24,7 @@ Top View
     |   o o    o o         |           |       o o    o o  |
     |   o o    o o         |           |       o o    o o  |
     |   o o    o o         |   STM32   |       o o    o o  |
-    |   o o    o o         |           |  CN12 o o    o o  |
+    |   o o    o o         |           |  CN10 o o    o o  |
     |   o o                |___________|       o o    o o  |
     |   o o    o o CN9                         o o    o o  |
     |   o o    o o                             o o    o o  |
@@ -59,46 +59,46 @@ Top View
 
 
 ```
-            CN11
+           CN11
         (ST Morpho)            
  -----------------------------     
  GPIO | Name |   | Name | GPIO
  -----------------------------     
-  41 | PC9  |o o| PC8  | 40 
-  24 | PB8  |o o| PC6  | 38 
-  25 | PB9  |o o| PC5  | 37 
-     | AVDD |o o| V5V  |     
-     | GND  |o o| PD8  | 56 
-  5  | PA5  |o o| PA12 |     
-  6  | PA6  |o o| PA11 |     
-  7  | PA7  |o o| PB12 | 28 
-  22 | PB6  |o o| PB11 | 27 
-  39 | PC7  |o o| GND  |     
-  10 | PA9  |o o| PB2  | 18 
-  ?  | PA0  |o o| PB1  | 17 
-  26 | PB10 |o o| PB15 | 31 
-  20 | PB4  |o o| PB14 | 30 
-  21 | PB5  |o o| PB13 | 29 
-  19 | PB3  |o o| AGND |     
-  10 | PA10 |o o| PC4  | 36 
-  2  | PA2  |o o| PF5  | 85 
-  3  | PA3  |o o| PF4  | 84 
-     | GND  |o o| PE8  | 72 
-  61 | PD13 |o o| F10  | 90 
-  60 | PD12 |o o| PE7  | 71 
-  59 | PD11 |o o| PD14 | 62 
-  74 | PE10 |o o| PD15 | 63 
-  76 | PE12 |o o| PF14 | 94 
-  78 | PE14 |o o| PE9  | 73 
-  79 | PE15 |o o| GND  |     
-  77 | PE13 |o o| PE11 | 75 
-  93 | PF13 |o o| PF3  | 83 
-  92 | PF12 |o o| PF15 | 95 
- 110 | PG14 |o o| PF11 | 91 
-     | GND  |o o| PE0  | 64 
-  58 | PD10 |o o| PG8  | 104 
- 103 | PG7  |o o| PG5  | 101 
- 100 | PG4  |o o| PG6  | 102 
+   42 | PC10 |o o| PC11 | 43
+   44 | PC12 |o o| PD2  | 50
+      | VDD  |o o| E5V  |    
+      | BT0  |o o| GND  |    
+   86 | PF6  |o o| NC   |    
+   87 | PF7  |o o| +3V3 |    
+   13 | PA13 |o o| NRST |    
+   14 | PA14 |o o| 3V3  |    
+   15 | PA15 |o o| +5V  |    
+      | GND  |o o| GND  |    
+   23 | PB7  |o o| GND  |    
+   45 | PC13 |o o| VIN  |    
+      | PC14 |o o|      |    
+      | PC15 |o o| PA0  |    
+      | OSC1 |o o| PA1  |    
+  113 | PH1  |o o| PA4  |    
+      | VBAT |o o| PB0  | 16
+   34 | PC2  |o o| PC1  | 33
+   35 | PC3  |o o| PC0  | 32
+   52 | PD4  |o o| PD3  | 51
+   53 | PD5  |o o| PG2  | 98
+   54 | PD6  |o o| PG3  | 99
+   55 | PD7  |o o| PE2  | 66
+   67 | PE3  |o o| PE4  | 68
+      | GND  |o o| PE5  | 69
+   81 | PF1  |o o| PF2  | 82
+   80 | PF0  |o o| PF8  | 88
+   49 | PD1  |o o| PF9  | 89
+   48 | PD0  |o o| PG1  | 97
+   96 | PG0  |o o| GND  |    
+   61 | PE1  |o o| PE6  | 70
+  105 | PG9  |o o| PG15 | 111
+  108 | PG12 |o o| PG10 | 106
+      | PH2  |o o| PG13 | 109
+   57 | PD9  |o o| PG11 | 107 
 ```
 
 ```
@@ -190,41 +190,41 @@ Top View
  -----------------------------     
  GPIO | Name |   | Name | GPIO
  ----------------------------- 
-   42 | PC10 |o o| PC11 | 43
-   44 | PC12 |o o| PD2  | 50
-      | VDD  |o o| E5V  |    
-      | BT0  |o o| GND  |    
-   86 | PF6  |o o| NC   |    
-   87 | PF7  |o o| +3V3 |    
-   13 | PA13 |o o| NRST |    
-   14 | PA14 |o o| 3V3  |    
-   15 | PA15 |o o| +5V  |    
-      | GND  |o o| GND  |    
-   23 | PB7  |o o| GND  |    
-   45 | PC13 |o o| VIN  |    
-      | PC14 |o o|      |    
-      | PC15 |o o| PA0  |    
-      | OSC1 |o o| PA1  |    
-  113 | PH1  |o o| PA4  |    
-      | VBAT |o o| PB0  | 16
-   34 | PC2  |o o| PC1  | 33
-   35 | PC3  |o o| PC0  | 32
-   52 | PD4  |o o| PD3  | 51
-   53 | PD5  |o o| PG2  | 98
-   54 | PD6  |o o| PG3  | 99
-   55 | PD7  |o o| PE2  | 66
-   67 | PE3  |o o| PE4  | 68
-      | GND  |o o| PE5  | 69
-   81 | PF1  |o o| PF2  | 82
-   80 | PF0  |o o| PF8  | 88
-   49 | PD1  |o o| PF9  | 89
-   48 | PD0  |o o| PG1  | 97
-   96 | PG0  |o o| GND  |    
-   61 | PE1  |o o| PE6  | 70
-  105 | PG9  |o o| PG15 | 111
-  108 | PG12 |o o| PG10 | 106
-      | PH2  |o o| PG13 | 109
-   57 | PD9  |o o| PG11 | 107
+  41 | PC9  |o o| PC8  | 40 
+  24 | PB8  |o o| PC6  | 38 
+  25 | PB9  |o o| PC5  | 37 
+     | AVDD |o o| V5V  |     
+     | GND  |o o| PD8  | 56 
+  5  | PA5  |o o| PA12 |     
+  6  | PA6  |o o| PA11 |     
+  7  | PA7  |o o| PB12 | 28 
+  22 | PB6  |o o| PB11 | 27 
+  39 | PC7  |o o| GND  |     
+  10 | PA9  |o o| PB2  | 18 
+  ?  | PA0  |o o| PB1  | 17 
+  26 | PB10 |o o| PB15 | 31 
+  20 | PB4  |o o| PB14 | 30 
+  21 | PB5  |o o| PB13 | 29 
+  19 | PB3  |o o| AGND |     
+  10 | PA10 |o o| PC4  | 36 
+  2  | PA2  |o o| PF5  | 85 
+  3  | PA3  |o o| PF4  | 84 
+     | GND  |o o| PE8  | 72 
+  61 | PD13 |o o| F10  | 90 
+  60 | PD12 |o o| PE7  | 71 
+  59 | PD11 |o o| PD14 | 62 
+  74 | PE10 |o o| PD15 | 63 
+  76 | PE12 |o o| PF14 | 94 
+  78 | PE14 |o o| PE9  | 73 
+  79 | PE15 |o o| GND  |     
+  77 | PE13 |o o| PE11 | 75 
+  93 | PF13 |o o| PF3  | 83 
+  92 | PF12 |o o| PF15 | 95 
+ 110 | PG14 |o o| PF11 | 91 
+     | GND  |o o| PE0  | 64 
+  58 | PD10 |o o| PG8  | 104 
+ 103 | PG7  |o o| PG5  | 101 
+ 100 | PG4  |o o| PG6  | 102
 ```
 
 

@@ -13,10 +13,10 @@ Top View
     |              Debugger/Programmer                     | 
     |                                                      | 
     |______________________________________________________|
-    |   CN11                                   CN8    CN12 |
+    |   CN11                                   CN7    CN12 |
     |   o o                                    o o    o o  |
     |   o o                                    o o    o o  |
-    |   o o    CN7                             o o    o o  |
+    |   o o    CN8                             o o    o o  |
     |   o o    o o                             o o    o o  |
     |   o o    o o                             o o    o o  |
     |   o o    o o                             o o    o o  |
@@ -77,9 +77,9 @@ Top View
    23 | PB7  |o o| GND  |    
    45 | PC13 |o o| VIN  |    
       | PC14 |o o|      |    
-      | PC15 |o o| PA0  |    
-      | OSC1 |o o| PA1  |    
-  113 | PH1  |o o| PA4  |    
+      | PC15 |o o| PA0  | 0   
+      | OSC1 |o o| PA1  | 1   
+  113 | PH1  |o o| PA4  | 4   
       | VBAT |o o| PB0  | 16
    34 | PC2  |o o| PC1  | 33
    35 | PC3  |o o| PC0  | 32
@@ -201,7 +201,7 @@ Top View
   22 | PB6  |o o| PB11 | 27 
   39 | PC7  |o o| GND  |     
   10 | PA9  |o o| PB2  | 18 
-  ?  | PA0  |o o| PB1  | 17 
+     | PA0  |o o| PB1  | 17 
   26 | PB10 |o o| PB15 | 31 
   20 | PB4  |o o| PB14 | 30 
   21 | PB5  |o o| PB13 | 29 

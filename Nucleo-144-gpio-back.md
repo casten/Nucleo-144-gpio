@@ -209,9 +209,9 @@ Back View
       | GND  |o o| PB7  | 23
       | VIN  |o o| PC13 | 45
       |      |o o| PC14 | 
-      | PA0  |o o| PC15 | 
-      | PA1  |o o| OSC1 | 
-      | PA4  |o o| PH1  | 113
+    0 | PA0  |o o| PC15 | 
+    1 | PA1  |o o| OSC1 | 
+    4 | PA4  |o o| PH1  | 113
    16 | PB0  |o o| VBAT | 
    33 | PC1  |o o| PC2  | 34
    32 | PC0  |o o| PC3  | 35

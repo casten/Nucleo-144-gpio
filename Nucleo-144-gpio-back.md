@@ -67,7 +67,7 @@
       -------------------  
    39 | PC8  |o o| PC9  | 40
    37 | PC6  |o o| PB8  | 24
-   36 | PC5  |o o| PB9  | 25
+      | PC5  |o o| PB9  | 25
       | V5V  |o o| AVDD |   
    56 | PD8  |o o| GND  |  
       | PA12 |o o| PA5  | 5

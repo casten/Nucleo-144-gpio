@@ -63,8 +63,8 @@
  -----------------------------     
  GPIO | Name |   | Name | GPIO
  -----------------------------     
-   42 | PC10 |o o| PC11 | 43
-   44 | PC12 |o o| PD2  | 50
+   41 | PC10 |o o| PC11 | 42
+   43 | PC12 |o o| PD2  | 50
       | VDD  |o o| E5V  |    
       | BT0  |o o| GND  |    
    86 | PF6  |o o| NC   |    
@@ -74,7 +74,7 @@
    15 | PA15 |o o| +5V  |    
       | GND  |o o| GND  |    
    23 | PB7  |o o| GND  |    
-   45 | PC13 |o o| VIN  |    
+   44 | PC13 |o o| VIN  |    
       | PC14 |o o|      |    
       | PC15 |o o| PA0  | 0   
       | OSC1 |o o| PA1  | 1   
@@ -105,11 +105,11 @@
  -----------------------------     
  GPIO | Name  |   | Name | GPIO
 ------------------------------     
-      | NC    |o o| PC8  | 40
-      | IOREF |o o| PC9  | 41
-      | RESET |o o| PC10 | 42
-      | +3V3  |o o| PC11 | 43
-      | +5V   |o o| PC12 | 44
+      | NC    |o o| PC8  | 39
+      | IOREF |o o| PC9  | 40
+      | RESET |o o| PC10 | 41
+      | +3V3  |o o| PC11 | 42
+      | +5V   |o o| PC12 | 43
       | GND   |o o| PD2  | 50
       | GND   |o o| PG2  | 98
       | VIN   |o o| PG3  | 99
@@ -145,12 +145,12 @@
  -----------------------------     
  GPIO | Name|   | Name | GPIO
 ------------------------------     
-   38 | PC6  |o o| PB8  | 24
+   37 | PC6  |o o| PB8  | 24
    31 | PB15 |o o| PB9  | 25
    29 | PB13 |o o| AVDD |   
    28 | PB12 |o o| GND  |   
    15 | PA15 |o o| PA5  |  5
-   39 | PC7  |o o| PA6  |  6
+   38 | PC7  |o o| PA6  |  6
    21 | PB5  |o o| PA7  |  7
    19 | PB3  |o o| PD14 | 62
     4 | PA4  |o o| PD15 | 63
@@ -189,16 +189,16 @@
  -----------------------------     
  GPIO | Name |   | Name | GPIO
  ----------------------------- 
-  41 | PC9  |o o| PC8  | 40 
-  24 | PB8  |o o| PC6  | 38 
-  25 | PB9  |o o| PC5  | 37 
+  40 | PC9  |o o| PC8  | 39 
+  24 | PB8  |o o| PC6  | 37 
+  25 | PB9  |o o| PC5  | 
      | AVDD |o o| V5V  |     
      | GND  |o o| PD8  | 56 
   5  | PA5  |o o| PA12 |     
   6  | PA6  |o o| PA11 |     
   7  | PA7  |o o| PB12 | 28 
   22 | PB6  |o o| PB11 | 27 
-  39 | PC7  |o o| GND  |     
+  38 | PC7  |o o| GND  |     
   10 | PA9  |o o| PB2  | 18 
      | PA0  |o o| PB1  | 17 
   26 | PB10 |o o| PB15 | 31 

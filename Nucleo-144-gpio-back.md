@@ -65,16 +65,16 @@
  -----------------------------     
  GPIO | Name |   | Name | GPIO
       -------------------  
-   40 | PC8  |o o| PC9  | 41
-   38 | PC6  |o o| PB8  | 24
-   37 | PC5  |o o| PB9  | 25
+   39 | PC8  |o o| PC9  | 40
+   37 | PC6  |o o| PB8  | 24
+   36 | PC5  |o o| PB9  | 25
       | V5V  |o o| AVDD |   
    56 | PD8  |o o| GND  |  
       | PA12 |o o| PA5  | 5
       | PA11 |o o| PA6  | 6
    28 | PB12 |o o| PA7  | 7
    27 | PB11 |o o| PB6  | 22
-      | GND  |o o| PC7  | 39
+      | GND  |o o| PC7  | 38
    18 | PB2  |o o| PA9  | 10
    17 | PB1  |o o| PA0  | ?
    31 | PB15 |o o| PB10 | 26
@@ -108,12 +108,12 @@
  -----------------------------     
  GPIO | Name|   | Name | GPIO
       -------------------  
-   24 | PB8  |o o| PC6  | 38
+   24 | PB8  |o o| PC6  | 37
    25 | PB9  |o o| PB15 | 31
       | AVDD |o o| PB13 | 29
       | GND  |o o| PB12 | 28
     5 | PA5  |o o| PA15 | 15
-    6 | PA6  |o o| PC7  | 39
+    6 | PA6  |o o| PC7  | 38
     7 | PA7  |o o| PB5  | 21
    62 | PD14 |o o| PB3  | 19
    63 | PD15 |o o| PA4  | 4
@@ -153,11 +153,11 @@
  -----------------------------     
  GPIO | Name |   | Name  | GPIO
       -------------------  
-   40 | PC8  |o o| NC    | 
-   41 | PC9  |o o| IOREF | 
-   42 | PC10 |o o| RESET | 
-   43 | PC11 |o o| +3V3  | 
-   44 | PC12 |o o| +5V   | 
+   39 | PC8  |o o| NC    | 
+   40 | PC9  |o o| IOREF | 
+   41 | PC10 |o o| RESET | 
+   42 | PC11 |o o| +3V3  | 
+   43 | PC12 |o o| +5V   | 
    50 | PD2  |o o| GND   | 
    98 | PG2  |o o| GND   | 
    99 | PG3  |o o| VIN   | 
@@ -195,8 +195,8 @@
  -----------------------------     
  GPIO | Name |   | Name | GPIO
       -------------------  
-   43 | PC11 |o o| PC10 | 42
-   50 | PD2  |o o| PC12 | 44
+   42 | PC11 |o o| PC10 | 41
+   50 | PD2  |o o| PC12 | 43
       | E5V  |o o| VDD  | 
       | GND  |o o| BT0  | 
       | NC   |o o| PF6  | 86
@@ -206,7 +206,7 @@
       | +5V  |o o| PA15 | 15
       | GND  |o o| GND  | 
       | GND  |o o| PB7  | 23
-      | VIN  |o o| PC13 | 45
+      | VIN  |o o| PC13 | 44
       |      |o o| PC14 | 
     0 | PA0  |o o| PC15 | 
     1 | PA1  |o o| OSC1 | 

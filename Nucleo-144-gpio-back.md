@@ -60,7 +60,7 @@
 
 
 ```
-            CN11
+            CN12
         (ST Morpho - Back)
  -----------------------------     
  GPIO | Name |   | Name | GPIO

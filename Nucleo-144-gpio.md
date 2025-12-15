@@ -199,7 +199,7 @@
   7  | PA7  |o o| PB12 | 28 
   22 | PB6  |o o| PB11 | 27 
   38 | PC7  |o o| GND  |     
-  10 | PA9  |o o| PB2  | 18 
+   9 | PA9  |o o| PB2  | 18 
    8 | PA8  |o o| PB1  | 17 
   26 | PB10 |o o| PB15 | 31 
   20 | PB4  |o o| PB14 | 30 

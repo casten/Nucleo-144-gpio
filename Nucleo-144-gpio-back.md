@@ -75,7 +75,7 @@
    28 | PB12 |o o| PA7  | 7
    27 | PB11 |o o| PB6  | 22
       | GND  |o o| PC7  | 38
-   18 | PB2  |o o| PA9  | 10
+   18 | PB2  |o o| PA9  | 9
    17 | PB1  |o o| PA8  | 8
    31 | PB15 |o o| PB10 | 26
    30 | PB14 |o o| PB4  | 20

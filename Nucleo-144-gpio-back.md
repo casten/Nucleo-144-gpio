@@ -65,20 +65,20 @@
  -----------------------------     
  GPIO | Name |   | Name | GPIO
       -------------------  
-   39 | PC8  |o o| PC9  | 40
-   37 | PC6  |o o| PB8  | 24
+   40 | PC8  |o o| PC9  | 41
+   38 | PC6  |o o| PB8  | 24
       | PC5  |o o| PB9  | 25
       | V5V  |o o| AVDD |   
    56 | PD8  |o o| GND  |  
       | PA12 |o o| PA5  | 5
       | PA11 |o o| PA6  | 6
-   28 | PB12 |o o| PA7  | 7
+   28 | PB12 |o o| PA7  | 
    27 | PB11 |o o| PB6  | 22
-      | GND  |o o| PC7  | 38
+      | GND  |o o| PC7  | 39
    18 | PB2  |o o| PA9  | 9
    17 | PB1  |o o| PA8  | 8
    31 | PB15 |o o| PB10 | 26
-   30 | PB14 |o o| PB4  | 20
+      | PB14 |o o| PB4  | 20
    29 | PB13 |o o| PB5  | 21
       | AGND |o o| PB3  | 19
    36 | PC4  |o o| PA10 | 10
@@ -99,7 +99,7 @@
    64 | PE0  |o o| GND  |  
   104 | PG8  |o o| PD10 | 58
   101 | PG5  |o o| PG7  | 103
-  102 | PG6  |o o| PG4  | 100
+      | PG6  |o o| PG4  | 100
 ```
 
 ```
@@ -108,13 +108,13 @@
  -----------------------------     
  GPIO | Name|   | Name | GPIO
       -------------------  
-   24 | PB8  |o o| PC6  | 37
+   24 | PB8  |o o| PC6  | 38
    25 | PB9  |o o| PB15 | 31
       | AVDD |o o| PB13 | 29
       | GND  |o o| PB12 | 28
     5 | PA5  |o o| PA15 | 15
-    6 | PA6  |o o| PC7  | 38
-    7 | PA7  |o o| PB5  | 21
+    6 | PA6  |o o| PC7  | 39
+      | PA7  |o o| PB5  | 21
    62 | PD14 |o o| PB3  | 19
    63 | PD15 |o o| PA4  | 4
    92 | PF12 |o o| PB4  | 20
@@ -153,11 +153,11 @@
  -----------------------------     
  GPIO | Name |   | Name  | GPIO
       -------------------  
-   39 | PC8  |o o| NC    | 
-   40 | PC9  |o o| IOREF | 
-   41 | PC10 |o o| RESET | 
-   42 | PC11 |o o| +3V3  | 
-   43 | PC12 |o o| +5V   | 
+   40 | PC8  |o o| NC    | 
+   41 | PC9  |o o| IOREF | 
+   42 | PC10 |o o| RESET | 
+   43 | PC11 |o o| +3V3  | 
+   44 | PC12 |o o| +5V   | 
    50 | PD2  |o o| GND   | 
    98 | PG2  |o o| GND   | 
    99 | PG3  |o o| VIN   | 
@@ -181,7 +181,7 @@
    70 | PE6 |o o| PF1  | 81
    67 | PE3 |o o| PF0  | 80
    88 | PF8 |o o| GND  | 
-   87 | PF7 |o o| PD0  | 48
+   87 | PF7 |o o| PD0  | 
    89 | PF9 |o o| PD1  | 49
    97 | PG1 |o o| PG0  | 96
 ```
@@ -195,8 +195,8 @@
  -----------------------------     
  GPIO | Name |   | Name | GPIO
       -------------------  
-   42 | PC11 |o o| PC10 | 41
-   50 | PD2  |o o| PC12 | 43
+   43 | PC11 |o o| PC10 | 42
+   50 | PD2  |o o| PC12 | 44
       | E5V  |o o| VDD  | 
       | GND  |o o| BT0  | 
       | NC   |o o| PF6  | 86
@@ -206,7 +206,7 @@
       | +5V  |o o| PA15 | 15
       | GND  |o o| GND  | 
       | GND  |o o| PB7  | 23
-      | VIN  |o o| PC13 | 44
+      | VIN  |o o| PC13 | 45
       |      |o o| PC14 | 
     0 | PA0  |o o| PC15 | 
     1 | PA1  |o o| OSC1 | 
@@ -223,9 +223,9 @@
    82 | PF2  |o o| PF1  | 81
    88 | PF8  |o o| PF0  | 80
    89 | PF9  |o o| PD1  | 49
-   97 | PG1  |o o| PD0  | 48
+   97 | PG1  |o o| PD0  | 
       | GND  |o o| PG0  | 96
-   70 | PE6  |o o| PE1  | 61
+   70 | PE6  |o o| PE1  | 
   111 | PG15 |o o| PG9  | 105
   106 | PG10 |o o| PG12 | 108
   109 | PG13 |o o| PH2  | 
